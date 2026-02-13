@@ -5,4 +5,6 @@
 first_number = 12
 second_number = 3.14
 
-sum_numbers = first_number + second_number
+sum_numbers = int(first_number) + float(second_number)
+
+print(f"sum of {first_number} and {second_number} is {sum_numbers}")
