@@ -14,6 +14,3 @@ print(f"the nth_term is: {nth_term}")
 
 sn = (n / 2) * (2 * a +(n - 1) * d)
 print(f"the sum of terms is: {sn}")
-
-for x in range (-180,180,30)
-print()
