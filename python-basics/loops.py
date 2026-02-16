@@ -1,6 +1,6 @@
 # Name : Stacy Muchoki
-# Date : 13/02/2026operations
-# Program to do mathematical 
+# Date : 13/02/2026
+# Program to do arithmetic operations using loops
 
 
 
