@@ -43,7 +43,7 @@ while i >= 1:
     print() 
     i -= 1
 
-
+# Triangle
 i = 1
 while i <= rows:
     j = 1
