@@ -102,6 +102,7 @@ warrior_character.report_status()
 
 ninja_character.run("Up")
 ninja_character.kick(warrior_character)
+warrior_character.takle(ninja_character)
 
 ninja_character.report_status()
 warrior_character.report_status()
