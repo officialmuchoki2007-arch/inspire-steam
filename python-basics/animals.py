@@ -22,6 +22,7 @@ class Dog(Animal):
     def __init__(self, color, weight, breed):
         super().__init__(species,weight,food)
         self.height = height
+        self.color = color
         self.breed = breed
 
     def barks(self):
