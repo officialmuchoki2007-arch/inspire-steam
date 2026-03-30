@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+    border: solid 3px rgb(187, 64, 16);
+    height: 600px;
+    width: 400px;
+
+    flex-direction: row;
+    flex-wrap:nowrap;
+    overflow-x: scroll;
+}
+
+.box{
+    background-color: rgb(177, 108, 25);
+    min-width: 100px;
+    height: 200px;
+    margin: 8px;
+}

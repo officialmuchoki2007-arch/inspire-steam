@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+    border: solid 3px rgb(214, 179, 21);
+    height: 600px;
+    width: 400px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.box{
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}

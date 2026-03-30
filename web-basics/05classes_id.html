@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05Module: Classes, ids</title>
+
+    <style>
+        body {
+            background-color: aquamarine;
+            color:blueviolet;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        #page-wrapper{
+            max-width: 700px;
+            margin: 0auto;
+            padding: 40px 24px;
+        }
+        #band-photos{
+            width: 400px;
+            height: 400px;
+            object-fit: contain;
+        }
+        #photos{
+            background-color: beige;
+        }
+        #listen-section{
+            position: relative;
+            display: flex;
+            justify-content:center;
+            align-content: center;
+            width: 560px;
+            height: 560px;
+            background-color: blueviolet;
+
+        }
+        
+    </style>
+
+</head>
+<body>
+    <!--
+    id: unique, only one element in the page should have it
+    
+    class: reusable, used to identify multiple elements together
+    -->
+
+    <div id="page-wrapper">
+        <h1>Rainbow Kittens Surprise</h1>
+        <p>Disc: Band from Australia, focusing on indie-style music</p>
+        
+        <div id="photos">
+              <img class="band photos" scr="./assets/images/photo.jpg" alt="band photo">
+              <img class="band-photos" src="./assets/images/image.jpg" alt="band-photo">
+
+        </div>
+
+        <div id="listen-section">
+            <p class="song">latest song</p>
+            <p class="song">earlier song</p>
+
+        </div>
+
+       
+       
+
+
+    </div>
+</body>
+</html>
